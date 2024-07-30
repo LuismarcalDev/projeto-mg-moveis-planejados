@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  background-color: rgb(255, 255, 255);
+}
+.titleheader {
+  color: #a07007;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.links-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.links-header a {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 500ms;
+}
+.links-header a:hover {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline #c4890b 2px;
+}
+
+.contato-header button {
+  padding: 11px;
+  border: none;
+  border-radius: 7px;
+  background-color: #c98d0c;
+}
+.contato-header button:hover {
+  cursor: pointer;
+  transition: 500ms;
+  padding: 11px;
+  border: none;
+  border-radius: 7px;
+  background-color: #e09e0f;
+}
+.contato-header button a {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+.contato-header button a i span {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1170px) {
+  .links-header {
+    display: none;
+  }
+}

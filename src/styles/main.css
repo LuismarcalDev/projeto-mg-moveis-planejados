@@ -1,0 +1,93 @@
+main {
+  min-height: calc(100vh - 64px);
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(fundo/image-quarto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-geral {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  top: 120px;
+}
+
+.main-geral h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 5px 10px 15px rgba(0, 0, 0, 0.199);
+  font-size: 70px;
+  text-decoration: underline #c4890b;
+  font-weight: 500;
+}
+.main-geral h1 span {
+  color: #c4890b;
+}
+.main-geral h2 {
+  color: white;
+  text-shadow: 5px 10px 15px rgba(0, 0, 0, 0.281);
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  top: -5px;
+}
+.main-geral button {
+  padding: 15px;
+  position: relative;
+  top: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.233);
+  border: none;
+  transition: 500ms;
+  cursor: pointer;
+}
+.main-geral button:hover {
+  transition: 500ms;
+  padding: 15px;
+  position: relative;
+  top: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.452);
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.main-geral button a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1170px) {
+  .main-geral h1 {
+    font-size: 60px;
+  }
+
+  .main-geral h2 {
+    font-size: 30px;
+  }
+  .id-br {
+    display: none;
+  }
+  .main-geral button {
+    padding: 20px;
+  }
+  .main-geral button:hover {
+    padding: 20px;
+  }
+  .main-geral button a {
+    font-size: 15px;
+  }
+  .main-geral button a:hover {
+    font-size: 15px;
+  }
+}

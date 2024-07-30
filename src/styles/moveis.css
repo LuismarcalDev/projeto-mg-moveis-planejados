@@ -1,0 +1,170 @@
+.moveis {
+  width: 100%;
+  height: 100vh;
+}
+.moveis-geral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+.title-moveis {
+  text-align: center;
+}
+.title-moveis h2 {
+  color: #a07007;
+  font-family: "Poppins", sans-serif;
+  font-size: 33px;
+}
+.title-moveis h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+}
+.cards-moveis {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  position: relative;
+  top: 30px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.096);
+}
+.moveis-card-solo h2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 37px;
+  font-weight: 600;
+}
+.moveis-card-solo hr {
+  border: #ffae00 2px solid;
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+  top: -7px;
+}
+.moveis-card-solo {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(fundo/image-quarto.png);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 350px;
+}
+.moveis-card-solo:hover {
+  cursor: pointer;
+  transition: 500ms;
+  background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(31, 31, 31, 0.5)),
+    url(fundo/image-quarto.png);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 350px;
+}
+#cosinha-moveis {
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/cosinha.png);
+  background-size: cover;
+  background-position: center;
+}
+#Banheiro-moveis {
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/banheiro.png);
+  background-size: cover;
+  background-position: center;
+}
+#sala-moveis {
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/sala.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#cosinha-moveis:hover {
+  background: linear-gradient(rgba(31, 31, 31, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/cosinha.png);
+  background-size: cover;
+  background-position: center;
+}
+#Banheiro-moveis:hover {
+  background: linear-gradient(rgba(34, 34, 34, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/banheiro.png);
+  background-size: cover;
+  background-position: center;
+}
+#sala-moveis:hover {
+  background: linear-gradient(rgba(22, 22, 22, 0.555), rgba(31, 31, 31, 0.795)),
+    url(fundo/sala.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.btns-quarto-sala {
+  width: 86%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(138, 138, 138, 0.226);
+  position: relative;
+  top: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  text-shadow: 5px 10px 15px black;
+  cursor: pointer;
+}
+
+.btn-cozinha-banheiro {
+  width: 86%;
+  height: 46px;
+  padding: 1px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(138, 138, 138, 0.226);
+  position: relative;
+  top: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  text-shadow: 5px 10px 15px black;
+  cursor: pointer;
+}
+.btns-quarto-sala:hover {
+  transition: 500ms;
+  width: 86%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(87, 86, 86, 0.226);
+  position: relative;
+  top: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(226, 226, 226);
+  font-weight: 500;
+  font-size: 17px;
+  text-shadow: 5px 10px 15px black;
+  cursor: pointer;
+}
+
+.moveis-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+@media screen and (max-width: 1170px) {
+  .cards-moveis {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .moveis {
+    height: 2050px;
+    position: relative;
+    
+  }
+}
